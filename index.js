@@ -33,7 +33,7 @@ app.get("/users", (req, res) => {
 });
 
 // start the server
-const port = process.env.PORT || 5555;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
